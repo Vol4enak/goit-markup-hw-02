@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+
+:root {
+    --logo-color-black: rgba(0, 0, 0, 1);
+    --main-color-black: rgba(33, 33, 33, 1);
+    --main-color-blue: rgba(33, 150, 243, 1);
+    --main-color-white: rgba(255, 255, 255, 1);
+    --main-color-text: rgba(117, 117, 117, 1);
+    --hero-color: rgba(47, 48, 58, 1);
+}
+/* добавить шрифты */
+ul{
+    list-style: none;
+}
+
+
+.main-logo{
+    text-decoration: none;
+}
+
+
+.wed-blue{
+    color: var(--main-color-blue);
+}
+.logo-black{
+    color: var(--logo-color-black) ;
+}
+
+.head-list a{
+    text-decoration: none;
+    color: var(--main-color-black);
+}
+
+.head-list .link.current{
+    color: var(--main-color-blue);
+
+}
+
+.head-list .link:hover,
+.head-list .link:focus{
+    color: var(--main-color-blue);
+
+}
+
+.mail{
+    color: var(--main-color-black);
+    text-decoration: none;
+}
+.head-info .mail:hover {
+    color: var(--main-color-blue);
+}
+.tel{
+    color: var(--main-color-text);
+    text-decoration: none;
+}
+.hero{
+    background-color:var(--hero-color) ;
+}
+.hero h1{
+    color: var(--main-color-white);
+    width: 696px;
+    height: 120px;
+
+}
+.button{
+   color: var(--main-color-white);
+   background-color : var(--main-color-blue);
+   border-radius: 4px ;
+   height: 50px;
+   width: 216px;
+}
+.Benefits{
+    color: var(--main-color-black);
+}
+.text{
+    color: var(--main-color-text);
+}
+.affair h2{
+    color: var(--main-color-black);
+}
+.team-head{
+    color: var(--main-color-black);
+}
+.our-team .names{
+    color: var(--main-color-black);
+}
+.our-team .post{
+    color: var(--main-color-text);
+}
+
+.button-port button{
+    color: var(--main-color-white);
+    background-color: var(--main-color-blue);
+    border-radius: 4px;
+    height: 38px;
+}
+.first{
+    width: 73px;  
+}
+.second{
+width: 125px;
+}
+.thirt{
+width: 112px;
+}
+.fourth{
+width: 103px;
+}
+.fifth{
+width: 130px;
+}
+.button-port p{
+    color: var(--main-color-black);
+    height: 26;
+}
+.txt-first{
+text-align: center;
+}
+.txt-sec{
+
+}
+.txt-thirh{
+
+}
+.txt-fourth{
+
+}
+.txt-fifth{
+
+}
+
+
+
+
+
+
+.footer{
+    background-color: var(--hero-color);
+}
+.logo-white{
+    color: var(--main-color-white);
+}
+.footer-link{
+    text-decoration: none;
+}
+.street{
+    color: var(--main-color-white);
+}
+.foot-info{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);;
+}
