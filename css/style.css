@@ -3,8 +3,6 @@
     margin: 0;
     border: 0;
 }
-
-
 :root {
     --logo-color-black: rgba(0, 0, 0, 1);
     --main-color-black: rgba(33, 33, 33, 1);
@@ -14,48 +12,48 @@
     --hero-color: rgba(47, 48, 58, 1);
     --button-color-port: rgba(245, 244, 250, 1);
 }
-/* добавить шрифты */
+body{
+    font-family: 'Roboto', sans-serif;
+}
 ul{
     list-style: none;
 }
-
-
+button{
+    font-family: inherit;
+}
 .main-logo{
     text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
-
-
 .wed-blue{
     color: var(--main-color-blue);
 }
 .logo-black{
     color: var(--logo-color-black) ;
 }
-
-.head-list a{
+.head-list .link{
     text-decoration: none;
     color: var(--main-color-black);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 0.02em;
 }
-
 .head-list .link.current{
     color: var(--main-color-blue);
-
 }
-
 .head-list .link:hover,
 .head-list .link:focus{
     color: var(--main-color-blue);
-
-}
-
-.mail{
-    color: var(--main-color-black);
-    text-decoration: none;
 }
 .head-info .mail:hover {
     color: var(--main-color-blue);
 }
-.tel{
+.info{
     color: var(--main-color-text);
     text-decoration: none;
 }
@@ -64,9 +62,13 @@ ul{
 }
 .hero h1{
     color: var(--main-color-white);
-    width: 696px;
-    height: 120px;
-
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    /* or 136% */
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 .button{
    color: var(--main-color-white);
@@ -74,57 +76,106 @@ ul{
    border-radius: 4px ;
    height: 50px;
    width: 216px;
+   font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+/* identical to box height, or 188% */
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+.button:focus{
+    color: var(--main-color-white);
+   background-color : var(--main-color-blue);
 }
 .Benefits{
     color: var(--main-color-black);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 .text{
     color: var(--main-color-text);
-}
-.affair h2{
-    color: var(--main-color-black);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 .team-head{
     color: var(--main-color-black);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 .our-team .names{
     color: var(--main-color-black);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.9;
+    /* identical to box height */
+    letter-spacing: 0.03em
 }
 .our-team .post{
     color: var(--main-color-text);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    /* identical to box height */
+    letter-spacing: 0.03em;
 }
-
 .button-port button{
     background-color: var(--button-color-port);
     border-radius: 4px;
     height: 38px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 .button-port button:hover {
     background-color: var(--main-color-blue);
     color: var(--main-color-white);
 }
-
 .first{
     width: 73px;  
 }
 .sec{
-width: 125px;
+    width: 125px;
 }
 .thirh{
-width: 112px;
+        width: 112px;
 }
 .fourth{
-width: 103px;
+    width: 103px;
 }
 .fifth{
-width: 130px;
+    width: 130px;
 }
 .txt{
     font-size: 16px;
     line-height: 26px;
 }
-
-
+.pick a{
+    text-decoration: none;
+}
+.pick .photo-name{
+    color: var(--main-color-black);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.pick .text-name{
+    color: var(--main-color-text);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+}
 .footer{
     background-color: var(--hero-color);
 }
@@ -136,8 +187,16 @@ width: 130px;
 }
 .street{
     color: var(--main-color-white);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 .foot-info{
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.6);;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
