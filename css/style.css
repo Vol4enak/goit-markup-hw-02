@@ -3,6 +3,10 @@
     margin: 0;
     border: 0;
 }
+body{
+    color: var(--main-color-text);
+    font-family: 'Roboto', sans-serif;  
+}
 :root {
     --logo-color-black: rgba(0, 0, 0, 1);
     --main-color-black: rgba(33, 33, 33, 1);
@@ -12,15 +16,7 @@
     --hero-color: rgba(47, 48, 58, 1);
     --button-color-port: rgba(245, 244, 250, 1);
 }
-body{
-    font-family: 'Roboto', sans-serif;
-}
-ul{
-    list-style: none;
-}
-button{
-    font-family: inherit;
-}
+
 .main-logo{
     text-decoration: none;
     font-family: 'Raleway';
@@ -50,10 +46,14 @@ button{
 .head-list .link:focus{
     color: var(--main-color-blue);
 }
-.head-info .mail:hover {
+.head-info .mail:hover, 
+.head-info .mail:focus,
+.head-info .tel:hover, 
+.head-info .tel:focus{
     color: var(--main-color-blue);
 }
 .info{
+    /* изза сслыки не наследует цвет из "body" */
     color: var(--main-color-text);
     text-decoration: none;
 }
@@ -76,6 +76,7 @@ button{
    border-radius: 4px ;
    height: 50px;
    width: 216px;
+   font-family: inherit;
    font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -85,7 +86,10 @@ button{
 }
 .button:focus{
     color: var(--main-color-white);
-   background-color : var(--main-color-blue);
+    background-color : var(--main-color-text);
+}
+.button:hover{
+   cursor: pointer;
 }
 .Benefits{
     color: var(--main-color-black);
@@ -96,7 +100,6 @@ button{
     text-transform: uppercase;
 }
 .text{
-    color: var(--main-color-text);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -119,26 +122,29 @@ button{
     letter-spacing: 0.03em
 }
 .our-team .post{
-    color: var(--main-color-text);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
     /* identical to box height */
     letter-spacing: 0.03em;
 }
+
 .button-port button{
     background-color: var(--button-color-port);
     border-radius: 4px;
     height: 38px;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
 }
-.button-port button:hover {
+.button-port button:hover,
+.button-port button:focus {
     background-color: var(--main-color-blue);
     color: var(--main-color-white);
+    cursor: pointer;
 }
 .first{
     width: 73px;  
@@ -155,10 +161,6 @@ button{
 .fifth{
     width: 130px;
 }
-.txt{
-    font-size: 16px;
-    line-height: 26px;
-}
 .pick a{
     text-decoration: none;
 }
@@ -170,6 +172,8 @@ button{
     letter-spacing: 0.06em;
 }
 .pick .text-name{
+    /* оставил  "color:" потомучто изза ссылки оно не наследует цвет, 
+    если вынетси тег "р" за граници тега "а" всё работает*/
     color: var(--main-color-text);
     font-weight: 400;
     font-size: 16px;
@@ -199,4 +203,8 @@ button{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+}
+.foot-info:focus,
+.foot-info:hover{
+    color: var(--main-color-blue);
 }
