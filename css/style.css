@@ -12,6 +12,7 @@
     --main-color-white: rgba(255, 255, 255, 1);
     --main-color-text: rgba(117, 117, 117, 1);
     --hero-color: rgba(47, 48, 58, 1);
+    --button-color-port: rgba(245, 244, 250, 1);
 }
 /* добавить шрифты */
 ul{
@@ -94,18 +95,22 @@ ul{
 }
 
 .button-port button{
-    color: var(--main-color-white);
-    background-color: var(--main-color-blue);
+    background-color: var(--button-color-port);
     border-radius: 4px;
     height: 38px;
 }
+.button-port button:hover {
+    background-color: var(--main-color-blue);
+    color: var(--main-color-white);
+}
+
 .first{
     width: 73px;  
 }
-.second{
+.sec{
 width: 125px;
 }
-.thirt{
+.thirh{
 width: 112px;
 }
 .fourth{
@@ -114,29 +119,10 @@ width: 103px;
 .fifth{
 width: 130px;
 }
-.button-port p{
-    color: var(--main-color-black);
-    height: 26;
+.txt{
+    font-size: 16px;
+    line-height: 26px;
 }
-.txt-first{
-text-align: center;
-}
-.txt-sec{
-
-}
-.txt-thirh{
-
-}
-.txt-fourth{
-
-}
-.txt-fifth{
-
-}
-
-
-
-
 
 
 .footer{
