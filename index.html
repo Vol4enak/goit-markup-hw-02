@@ -7,17 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-            rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./css/style.css">
     <title>Студия</title>
 </head>
 
 <body>
     <header>
-        <nav>
+        <div class="container">
+        <div class="box-nav">
+            <nav>
             <a class="main-logo" href="/">
-                <span class="wed-blue">Web</span><span class="logo-black">Studio</span>
+                <span class="web-blue">Web</span><span class="logo-black">Studio</span>
             </a>
             <ul class="head-list">
                 <li><a class="link current" href="">Студия</a></li>
@@ -25,63 +29,72 @@
                 <li><a class="link" href="">Контакты</a></li>
             </ul>
         </nav>
+        </div>
+      <div class="addres-nav">  
         <ul class="head-info">
             <li><a class="info mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <li><a class="info tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
-
+        </div>
+</div>
     </header>
     <main>
+        <div class="container">
         <section class="hero">
             <h1>Эффективные решения <br> для вашего бизнеса</h1>
             <button class="button" type="button">Заказать услугу</button>
         </section>
-
+</div>
+<div class="container">
         <section >
-            <h2>Наши преимущества</h2>
+            <h2 class="hide">Наши преимущества</h2>
             <ul>
                 <li>
-                    <h3 class="Benefits">Внимание к деталям</h3>
+                    <h3 class=bBenefits">Внимание к деталям</h3>
                     <p class="text">Идейные соображения, а также начало повседневной
                         работы по формированию позиции.
                     </p>
                 </li>
                 <li>
-                    <h3 class="Benefits">Пунктуальность</h3>
+                    <h3 class="benefits">Пунктуальность</h3>
                     <p class="text">
                         Задача организации, в особенности же
                         рамки и место обучения кадров влечет за собой.
                     </p>
                 </li>
                 <li>
-                    <h3 class="Benefits">Планирование</h3>
+                    <h3 class="benefits">Планирование</h3>
                     <p class="text">Равным образом консультация с широким
                         активом в значительной степени обуславливает.
                     </p>
                 </li>
                 <li>
-                    <h3 class="Benefits">Современные технологии</h3>
+                    <h3 class="benefits">Современные технологии</h3>
                     <p class="text">Значимость этих проблем настолько
                         очевидна, что реализация плановых заданий.
                     </p>
                 </li>
             </ul>
         </section>
-
+</div>
+<div class="container">
         <section class="affair">
             <h2 class="team-head">
                 Чем мы занимаемся
             </h2>
-
+            <div class="corect"></div>
             <ul>
-                <li><img src="./img/box-1-min.jpg" alt="Примеры работ" width="370"></li>
-                <li><img src="./img/box-2-min.jpg" alt="Примеры работ" width="370"></li>
-                <li><img src="./img/box-3-min.jpg" alt="Примеры работ" width="370"></li>
+                <li><img class="triple-picture" src="./img/box-2-min.jpg" alt="Примеры работ" width="370"></li>
+                <li><img class="triple-picture" src="./img/box-1-min.jpg" alt="Примеры работ" width="370"></li>
+                <li><img class="triple-picture" src="./img/box-3-min.jpg" alt="Примеры работ" width="370"></li>
             </ul>
+            </div>
         </section>
-
+</div>
+<div class="container">
         <section class="our-team">
             <h2 class="team-head">Наша команда</h2>
+            <div class="team-corect">
             <ul>
                 <li>
                     <img src="./img/first-guy.jpg" alt="Игорь Демьяненко" width="270">
@@ -104,12 +117,14 @@
                     <p class="post">UI Designer</p>
                 </li>
             </ul>
-
+</div>
         </section>
+        </div>
     </main>
     <footer class="footer">
+        <div class="container">
         <a class="main-logo" href="/">
-           <span class="wed-blue">Web</span><span class="logo-white">Studio</span>
+           <span class="web-blue">Web</span><span class="logo-white">Studio</span>
         </a>
         <address class="foot"> 
         <p class="street">м. Київ, пр-т Лесі Українки, 26</p>
@@ -118,6 +133,7 @@
             <li><a class="foot-info" href="tel:+380961111111">+38-096-111-11-11</a></li>
         </ul>
         </address>
+</div>
     </footer>
 </body>
-</html>
+</html> 

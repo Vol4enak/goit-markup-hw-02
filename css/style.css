@@ -1,8 +1,4 @@
-* {
-    padding: 0;
-    margin: 0;
-    border: 0;
-}
+
 body{
     color: var(--main-color-text);
     font-family: 'Roboto', sans-serif;  
@@ -17,6 +13,26 @@ body{
     --button-color-port: rgba(245, 244, 250, 1);
 }
 
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+.container{
+    width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+
+
+
 .main-logo{
     text-decoration: none;
     font-family: 'Raleway';
@@ -25,13 +41,15 @@ body{
     line-height: 1.19;
     letter-spacing: 0.03em;
 }
-.wed-blue{
+.web-blue{
     color: var(--main-color-blue);
 }
 .logo-black{
     color: var(--logo-color-black) ;
 }
 .head-list .link{
+    padding: 0;
+    margin: 0;
     text-decoration: none;
     color: var(--main-color-black);
     font-weight: 500;
@@ -70,6 +88,7 @@ letter-spacing: 0.02em;
     background-color:var(--hero-color) ;
 }
 .hero h1{
+  
     color: var(--main-color-white);
     font-weight: 900;
     font-size: 44px;
@@ -79,9 +98,16 @@ letter-spacing: 0.02em;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
-.button{
-   color: var(--main-color-white);
+.hero .button{
+    
+    display: block;
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;;
+    color: var(--main-color-white);
    background-color : var(--main-color-blue);
+   
    border-radius: 4px ;
    height: 50px;
    width: 216px;
@@ -90,8 +116,8 @@ letter-spacing: 0.02em;
     font-size: 16px;
     line-height: 1.88;
 /* identical to box height, or 188% */
-    text-align: center;
-    letter-spacing: 0.06em;
+text-align: center;    
+letter-spacing: 0.06em;
 }
 .button:focus{
     color: var(--main-color-white);
@@ -100,7 +126,12 @@ letter-spacing: 0.02em;
 .button:hover{
    cursor: pointer;
 }
-.Benefits{
+
+.hide{
+    display: none;
+}
+
+.benefits{
     color: var(--main-color-black);
     font-weight: 700;
     font-size: 14px;
@@ -109,11 +140,32 @@ letter-spacing: 0.02em;
     text-transform: uppercase;
 }
 .text{
+    margin-top: 10px;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
-.team-head{
+
+.affair{
+    margin-top: 94px;
+}
+
+.corect{
+    margin-top: 50px;
+}
+.triple-picture{
+
+    display: block;
+}
+
+.our-team{
+    margin-top: 94px;;
+    background-color: var(--button-color-port);
+}
+
+.team-head {
+    padding-top: 94px;
+
     color: var(--main-color-black);
     font-weight: 700;
     font-size: 36px;
@@ -121,6 +173,7 @@ letter-spacing: 0.02em;
     text-align: center;
     letter-spacing: 0.03em;
 }
+
 .our-team .names{
     color: var(--main-color-black);
     font-weight: 500;
@@ -135,10 +188,19 @@ letter-spacing: 0.02em;
     /* identical to box height */
     letter-spacing: 0.03em;
 }
+.names{
+    padding-top: 30px;
+}
+.post{
+    padding-top: 10px;;
+}
+
+
 
 .button-port button{
     background-color: var(--button-color-port);
     border-radius: 4px;
+    border: 0;
     height: 38px;
     font-family: inherit;
     font-weight: 500;
@@ -190,6 +252,11 @@ letter-spacing: 0.02em;
 .footer{
     background-color: var(--hero-color);
 }
+
+.footer .main-logo{
+    display: inline-block;
+    padding-top: 60px;
+}
 .logo-white{
     color: var(--main-color-white);
 }
@@ -197,15 +264,18 @@ letter-spacing: 0.02em;
     text-decoration: none;
 }
 .foot{
-    font-style: normal
+    font-style: normal;
+    padding-bottom: 60px;
 }
 .street{
+    padding-top: 20px;
     color: var(--main-color-white);
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
 .foot-info{
+    padding-top: 9px;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
