@@ -183,7 +183,7 @@ p{
 }
 
 .solid{
-    margin-top: 95px;
+    padding-top: 94px;
 }
 .benefits{
     color: var(--main-color-black);
@@ -201,7 +201,8 @@ p{
 }
 
 .affair{
-    margin-top: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .corect{
@@ -220,13 +221,11 @@ p{
 }
 
 .our-team{
-    margin-top: 94px;;
     background-color: var(--button-color-port);
-    border: 3px solid transparent;
 }
 
 .our-team .team-head{
-    margin-top: 94px;
+    padding-top: 94px;
 }
 
 .team-head {
@@ -240,7 +239,7 @@ p{
 
 .container.guy{
    
-    margin-bottom: 94px;
+    padding-bottom: 94px;
 }
 .team{
     display: flex;
@@ -284,8 +283,9 @@ border-radius: 0px 0px 4px 4px;
     padding-top: 10px;;
 }
 
-.container.midle{
-    margin-top: 94px;;
+.container .midle{
+    padding-top: 94px;;
+    padding-bottom: 94px;
 }
 
 .button-port{
