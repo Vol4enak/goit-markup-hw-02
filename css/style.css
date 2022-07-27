@@ -105,11 +105,11 @@ p{
 
 .head-info .mail,
 .head-info .tel{
-font-family: 'Roboto';
-font-weight: 500;
-font-size: 14px;
-line-height: 1.43;
-letter-spacing: 0.02em;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 0.02em;
 }
 
 
@@ -148,26 +148,26 @@ letter-spacing: 0.02em;
     margin-top: 30px;;
 
     color: var(--main-color-white);
-   background-color : var(--main-color-blue);
+     background-color : var(--main-color-blue);
    
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-   height: 50px;
-   width: 216px;
-   font-family: inherit;
-   font-weight: 700;
+    height: 50px;
+    width: 216px;
+    font-family: inherit;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-/* identical to box height, or 188% */
-text-align: center;    
-letter-spacing: 0.06em;
+    /* identical to box height, or 188% */
+    text-align: center;    
+    letter-spacing: 0.06em;
 }
 .button:focus{
     color: var(--main-color-white);
     background-color : var(--main-color-text);
 }
 .button:hover{
-   cursor: pointer;
+    cursor: pointer;
 }
 
 .hide{
@@ -278,10 +278,10 @@ border-radius: 0px 0px 4px 4px;
 } 
 
 .names{
-    margin-top: 30px;
+    padding-top: 30px;
 }
 .post{
-    margin-top: 10px;;
+    padding-top: 10px;;
 }
 
 .container.midle{
@@ -313,9 +313,10 @@ border-radius: 0px 0px 4px 4px;
 .button-port button:focus {
     background-color: var(--main-color-blue);
     color: var(--main-color-white);
-box-shadow: 0px 3px 1px 
-rgba(0, 0, 0, 0.1),0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px
-  rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 3px 1px 
+    rgba(0, 0, 0, 0.1),0px 1px 2px 
+    rgba(0, 0, 0, 0.08), 0px 2px 2px
+    rgba(0, 0, 0, 0.12);
     border-radius: 4px;
 
     cursor: pointer;
@@ -327,7 +328,7 @@ rgba(0, 0, 0, 0.1),0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px
     width: 125px;
 }
 .thirh{
-        width: 112px;
+    width: 112px;
 }
 .fourth{
     width: 103px;
@@ -366,7 +367,7 @@ rgba(0, 0, 0, 0.1),0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px
     text-decoration: none;
 }
 .pick .photo-name{
-    margin-top: 20px;;
+    padding-top: 20px;;
 
     color: var(--main-color-black);
     font-weight: 700;
@@ -375,7 +376,7 @@ rgba(0, 0, 0, 0.1),0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px
     letter-spacing: 0.06em;
 }
 .pick .text-name{
-    margin-top: 4px;
+    padding-top: 4px;
 
     color: var(--main-color-text);
     
@@ -412,7 +413,7 @@ margin-bottom: 60px;
     font-style: normal;
 }
 .street{
-    margin-top: 20px;
+    padding-top: 20px;
     color: var(--main-color-white);
     font-size: 14px;
     line-height: 1.71;
@@ -420,7 +421,7 @@ margin-bottom: 60px;
 }
 
 .foot-link{
-    margin-top: 9px;
+    padding-top: 9px;
 }
 
 .foot-info{
